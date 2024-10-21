@@ -1,0 +1,109 @@
+/*cabeçalho-------
+*/
+html,body{
+    height: 100%;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #09090b;
+
+}
+.navbar{
+    background:#450a0a;
+    font-size: 30px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#fafafa ;
+    margin-left: 10px;
+    
+}
+.navbar-light .navbar-toggler {
+    border-color: #fafafa;
+}
+
+.gif{
+    text-align: center;
+    width: 100%;
+}
+
+/*Conteudos*/
+
+
+
+/*responsivo---------------*/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {  
+    
+    
+  
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   .empresa{
+    font-size: 30px;
+   }
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+        .empresa{
+            font-size: 40px;
+        }
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+ }
+
+ /*sobre*/
+ .sobre{
+    margin: 50px 0 ;
+    display: flex;
+    justify-content: center;
+ }
+ .empresa{
+    font-size: 50px;
+    padding: 50px;
+    color: #fafafa;
+    text-align: center;
+ }
+
+ p{
+    color: #fafafa;
+    font-size: 16px;
+ }
+
+ .caixa{
+    padding: 45px 0px;
+ }
+
+ .rodape{
+    background: #450a0a;
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+ }
+
+ /*rodape*/
+ .titulo ,h2{
+    font-size: 20px;
+    color:#fafafa;
+    text-align: center;
+ }
+ footer ul{
+    list-style: none;
+ }
+ footer ul li{
+    float: right;
+    margin: 0px 20px;
+ }
+ .cow, li{
+    float: left;
+ }
