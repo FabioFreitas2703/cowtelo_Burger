@@ -25,8 +25,29 @@ body{
     text-align: center;
     width: 100%;
 }
+/*botao*/
+#links{
+   
+   padding: 100px;
+}
+.botao a img{
+   display: block;
+   margin: auto;
+
+}
+.bt{
+   background: #450a0a;
+   padding: 10px 0px 10px 0px;
+}
+.texto h3{
+   color: #fafafa;
+   text-align: center;
+
+}
 
 /*Conteudos*/
+
+
 
 
 
