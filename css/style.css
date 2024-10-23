@@ -44,6 +44,9 @@ body{
    text-align: center;
 
 }
+.d-flex {
+   display: block;
+}
 
 /*Conteudos*/
 
