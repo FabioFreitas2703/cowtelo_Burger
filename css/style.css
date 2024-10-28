@@ -9,8 +9,9 @@ body{
 
 }
 .navbar{
-    background:#450a0a;
+    background:#d6190b;
     font-size: 30px;
+    
 }
 .navbar-light .navbar-nav .nav-link{
     color:#fafafa ;
@@ -26,29 +27,102 @@ body{
     width: 100%;
 }
 /*botao*/
-#links{
-   
-   padding: 100px;
+.loja{
+   padding: 80px;
+   background: url(../Img/burger_8.jpg) no-repeat;
+   background-position-y: 40%;
+   background-position-x: 30%;
 }
+#links{
+   margin-top: 20px;
+   margin-bottom: 80px;
+}
+img.b.img-fluid{
+   background-color: #450a0a;
+   border:1px solid white;
+   border-radius: 30%;
+   padding: 5px 10px;
+}
+img.bc.img-fluid{
+   background-color: #fafafa;
+   border:1px solid #09090b;
+   border-radius: 30%;
+   padding: 5px 10px;
+}
+img.bc.img-fluid:hover{
+   background-color: #d6190b;
+}
+img.b.img-fluid:hover{
+   background-color: #09090b;
+}
+.container h1{
+   padding-bottom:60px ;
+}
+.container h3{
+   padding-bottom:30px ;
+}
+
+
 .botao a img{
    display: block;
    margin: auto;
 
 }
 .bt{
-   background: #450a0a;
    padding: 10px 0px 10px 0px;
+
 }
 .texto h3{
    color: #fafafa;
    text-align: center;
 
 }
-.d-flex {
-   display: block;
+.container h1{
+   text-align: center;
+   color: #fafafa;
+}
+.material-symbols-outlined {
+   font-size: 50px;
 }
 
-/*Conteudos*/
+/*produtos*/
+.d-flex {
+   margin-top: 100px;
+   margin-bottom: 100px;
+   display: block;
+}
+a.carousel-control-prev.carousel-control-next{
+   width: 5%;
+}
+
+
+/*Rodape-index*/
+#rodape{
+   margin-top: 50px;
+   background: #d6190b;
+}
+.logo-rodape{
+   margin-top: 20px;
+   text-align: center;
+}
+li{
+   margin-top:50px;
+}
+.redes li a img{
+   margin-top: 20px;
+   text-align: center;
+}
+.socias{
+   display: flex;
+   justify-content: center;
+}
+h2{
+   text-align: center;
+}
+.direitos{
+   color: #fafafa;
+   text-align: center;
+}
 
 
 
@@ -57,16 +131,16 @@ body{
 /*responsivo---------------*/
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {  
-    
+   h1.empresa{
+      font-size: 30px;
+   }
     
   
 }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
-   .empresa{
-    font-size: 30px;
-   }
+
  }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -76,9 +150,7 @@ body{
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-        .empresa{
-            font-size: 40px;
-        }
+       
  }
 
 /*Extra large devices (large desktops, 1200px and up)*/
@@ -100,12 +172,16 @@ body{
  }
 
  p{
-    color: #fafafa;
     font-size: 16px;
  }
+ .cor{
+   background: #fafafa;
+   border-radius: 5%;
+   margin-bottom: 20px;
+ }
 
- .caixa{
-    padding: 45px 0px;
+ #caixa{
+    padding: 20px 0px;
  }
 
  .rodape{
