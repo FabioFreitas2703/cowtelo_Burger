@@ -2,6 +2,7 @@
 */
 html,body{
     height: 100%;
+    
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -22,9 +23,8 @@ body{
     border-color: #fafafa;
 }
 
-.gif{
+.divisao{
     text-align: center;
-    width: 100%;
 }
 /*botao*/
 .loja{
@@ -62,6 +62,16 @@ img.b.img-fluid:hover{
    padding-bottom:30px ;
 }
 
+ @font-face {
+   font-family: montserrat ;
+   src: url(../css/fonts/Montserrat-Bold.ttf);
+ }
+
+ div.container.loja h1{
+   font-family: montserrat;
+ }
+
+
 
 .botao a img{
    display: block;
@@ -90,6 +100,9 @@ img.b.img-fluid:hover{
    margin-top: 100px;
    margin-bottom: 100px;
    display: block;
+}
+div.container h1{
+   font-family: montserrat;
 }
 a.carousel-control-prev.carousel-control-next{
    width: 5%;
